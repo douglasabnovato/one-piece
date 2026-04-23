@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Piece Wiki | ByteClass</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo">
+          <img
+            src="./one-piece.avif"
+            alt="One Piece Logo"
+          />
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+            <li><a href="#history">História</a></li>
+            <li><a href="#conversar">Conversar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Explore a Grand Line</h1>
+          <p>
+            Acompanhe a jornada de Monkey D. Luffy para se tornar o Rei dos
+            Piratas.
+          </p>
+          <a href="#personagens" class="btn-primary">Ver Tripulação</a>
+        </div>
+      </section>
+
+      <section id="personagens" class="characters">
+        <h2 class="section-title">Personagens Principais</h2>
+        <div id="container-personagens" class="characters-grid">
+          <p class="loading">Carregando piratas...</p>
+        </div>
+      </section>
+
+      <section id="history" class="history">
+        <div class="history-container">
+          <div class="history-image">
+            <img
+              src="eiichiro-oda.webp"
+              alt="Eiichiro Oda"
+            />
+          </div>
+          <div class="history-text">
+            <h2>A Lenda de One Piece</h2>
+            <p>
+              Escrito e ilustrado por <strong>Eiichiro Oda</strong>, One Piece
+              começou sua serialização na Weekly Shōnen Jump em
+              <strong>1997</strong>.
+            </p>
+            <p>
+              Produzido pela <strong>Toei Animation</strong>, o desenho se
+              tornou um fenômeno global, detendo recordes mundiais de vendas e
+              uma legião de fãs em todo o mundo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="conversar" class="contact">
+        <div class="form-container">
+          <h2>Mande uma Mensagem</h2>
+          <p>
+            Diga-nos o quanto você gosta de One Piece e qual seu personagem
+            favorito!
+          </p>
+
+          <form id="contact-form">
+            <div class="input-group">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Seu nome"
+                required
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seu@email.com"
+                required
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="favorite">Personagem Favorito</label>
+              <select id="favorite" name="favorite">
+                <option value="luffy">Monkey D. Luffy</option>
+                <option value="zoro">Roronoa Zoro</option>
+                <option value="nami">Nami</option>
+                <option value="sanji">Sanji</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="input-group">
+              <label for="message">Por que você ama este anime?</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Escreva aqui..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">
+              Enviar para a Grand Line <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>Desenvolvido na <strong>ByteClass</strong> - Squad de Programação</p>
+        <div class="tech-stack">
+          <span><i class="fab fa-html5"></i> HTML5</span>
+          <span><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span><i class="fab fa-js"></i> JavaScript</span>
+        </div>
+        <p class="copyright">&copy; 2026 learnTECH Ecosystem</p>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+/venv/
+
+# Build
+dist/
+build/
+*.exe
+*.dll
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente e Configurações
+.env
+.env.local
+.vscode/
+.idea/

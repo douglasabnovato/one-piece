@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nome": "Monkey D. Luffy",
+    "alcunha": "Chapéu de Palha",
+    "recompensa": "3.000.000.000 Berries",
+    "imagem": "luffy.jpg",
+    "descricao": "Capitão dos Piratas do Chapéu de Palha e usuário da Gomu Gomu no Mi."
+  },
+  {
+    "id": 2,
+    "nome": "Roronoa Zoro",
+    "alcunha": "Caçador de Piratas",
+    "recompensa": "1.111.000.000 Berries",
+    "imagem": "https://cdn.myanimelist.net/images/characters/3/100534.jpg",
+    "descricao": "O mestre do estilo de três espadas e o primeiro imediato do bando."
+  },
+  {
+    "id": 3,
+    "nome": "Nami",
+    "alcunha": "Gata Ladra",
+    "recompensa": "366.000.000 Berries",
+    "imagem": "nami.jpg",
+    "descricao": "A navegadora genial que sonha em desenhar o mapa do mundo inteiro."
+  },
+  {
+    "id": 4,
+    "nome": "Sanji",
+    "alcunha": "Perna Preta",
+    "recompensa": "1.032.000.000 Berries",
+    "imagem": "sanji.jpg",
+    "descricao": "O cozinheiro do bando e mestre do estilo de luta Black Leg."
+  },
+  {
+    "id": 5,
+    "nome": "Usopp",
+    "alcunha": "God Usopp",
+    "recompensa": "500.000.000 Berries",
+    "imagem": "usopp.jpg",
+    "descricao": "O atirador do bando e mestre em estratégias e invenções inusitadas."
+  },
+  {
+    "id": 6,
+    "nome": "Tony Tony Chopper",
+    "alcunha": "Amante de Algodão-Doce",
+    "recompensa": "1.000 Berries",
+    "imagem": "chopper.jpg",
+    "descricao": "O médico do bando, uma rena que comeu a Hito Hito no Mi."
+  },
+  {
+    "id": 7,
+    "nome": "Nico Robin",
+    "alcunha": "Filha do Demônio",
+    "recompensa": "930.000.000 Berries",
+    "imagem": "robin.jpg",
+    "descricao": "A arqueóloga do bando, única pessoa capaz de ler os Poneglyphs."
+  },
+  {
+    "id": 8,
+    "nome": "Franky",
+    "alcunha": "O Ciborgue",
+    "recompensa": "394.000.000 Berries",
+    "imagem": "franky.jpg",
+    "descricao": "O carpinteiro naval que construiu o Thousand Sunny."
+  },
+  {
+    "id": 9,
+    "nome": "Brook",
+    "alcunha": "Soul King",
+    "recompensa": "383.000.000 Berries",
+    "imagem": "brook.jpg",
+    "descricao": "O músico do bando, um esqueleto que voltou à vida graças à Yomi Yomi no Mi."
+  },
+  {
+    "id": 10,
+    "nome": "Jinbe",
+    "alcunha": "Cavaleiro do Mar",
+    "recompensa": "1.100.000.000 Berries",
+    "imagem": "jinbe.jpg",
+    "descricao": "O timoneiro do bando e mestre do Karatê Homem-Peixe."
+  },
+  {
+    "id": 11,
+    "nome": "Buggy",
+    "alcunha": "O Palhaço Estrela",
+    "recompensa": "3.189.000.000 Berries",
+    "imagem": "buggy.jpg",
+    "descricao": "Um dos atuais Imperadores do Mar e líder da Cross Guild."
+  },
+  {
+    "id": 12,
+    "nome": "Shanks",
+    "alcunha": "O Ruivo",
+    "recompensa": "4.048.900.000 Berries",
+    "imagem": "shanks.jpg",
+    "descricao": "O Imperador que inspirou Luffy a se tornar um pirata."
+  }
+]
