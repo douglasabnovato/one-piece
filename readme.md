@@ -7,3 +7,5 @@ O meu projeto para mostrar detalhes sobre esse ótimo desenho.
 - mariana-2: mariana rodrigues + palmeiras + 19:56:53
 
 - douglas-3: douglas braga + palmeiras fc + 20:02:37
+
+explicação de git com tres tarefas para serem desenvolvidas pela equipe
