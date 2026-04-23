@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Piece Wiki | ByteClass</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="./one-piece.avif" alt="One Piece Logo" />
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+            <li><a href="#history">História</a></li>
+            <li><a href="#conversar">Conversar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Explore a Grand Line</h1>
+          <p>
+            Acompanhe a jornada de Monkey D. Luffy para se tornar o Rei dos
+            Piratas.
+          </p>
+          <a href="#personagens" class="btn-primary">Ver Tripulação</a>
+        </div>
+      </section>
+
+      <section id="personagens" class="characters">
+        <h2 class="section-title">Personagens Principais</h2>
+            <div id="container-personagens" class="characters-grid">
+            <p class="loading">Carregando piratas...</p>
+        </div>
+      </section> 
+    
+      <section><h2>História</h2></section>
+      <section><h2>Conversar</h2></section>
+    </main>
+    
+    <script src="./main.js"></script>
+  </body>
+</html>

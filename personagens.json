@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nome": "Monkey D. Luffy",
+    "alcunha": "Chapéu de Palha",
+    "recompensa": "3.000.000.000 Berries",
+    "imagem": "luffy.jpg",
+    "descricao": "Capitão dos Piratas do Chapéu de Palha e usuário da Gomu Gomu no Mi."
+  },
+  {
+    "id": 2,
+    "nome": "Roronoa Zoro",
+    "alcunha": "Caçador de Piratas",
+    "recompensa": "1.111.000.000 Berries",
+    "imagem": "https://cdn.myanimelist.net/images/characters/3/100534.jpg",
+    "descricao": "O mestre do estilo de três espadas e o primeiro imediato do bando."
+  }
+]
